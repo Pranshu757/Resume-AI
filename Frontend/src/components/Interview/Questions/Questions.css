@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.q-container {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+/* HEADER */
+.header {
+  padding: 30px 20px 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.header p {
+  font-size: 15px;
+  color: #64748b;
+  margin-top: 5px;
+}
+
+/* PROGRESS */
+.progress-section {
+  max-width: 900px;
+  margin: 10px auto 30px;
+  padding: 0 20px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #475569;
+}
+
+.progress-bar {
+  height: 14px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+}
+
+/* CONTENT */
+.content {
+  padding: 0 20px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CARD */
+.q-card {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* TITLE */
+.q-title {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* BODY */
+.q-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.q-body.open {
+  max-height: 500px;
+  padding: 20px;
+}
+
+/* ANSWER */
+.answer {
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* FEEDBACK */
+.feedback {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 10px 16px;
+  border-radius: 25px;
+  background: #e2e8f0;
+  cursor: pointer;
+  border: none;
+}
+
+.chip.active:nth-child(1) {
+  background: #22c55e;
+  color: #fff;
+}
+
+.chip.active:nth-child(2) {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.chip.active:nth-child(3) {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 20px;
+}
+
+/* FIXED BOTTOM */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* BUTTON */
+.submit-btn {
+  padding: 14px 26px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
