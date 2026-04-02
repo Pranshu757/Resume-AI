@@ -79,8 +79,8 @@ Resume AI is a full-stack web application that analyzes a user's resume against 
   95,
   ["Node.js","React"],
   ["Built REST APIs","Auth system"],
-  ["BCA"],
-  ["300+ DSA solved"]
+  ["MCA"],
+  ["600+ DSA solved"]
 ]
 ```
 
